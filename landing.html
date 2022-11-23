@@ -1,0 +1,268 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>     
+Codeo Clinic  
+</Title> 
+<style type=text/css>
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: white;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0px;  
+height: 70px;  
+display: flex;  
+align-items: center;
+margin-left: 500px; 
+z-index: 2; 
+position: fixed;
+ 
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}
+.logo{
+    height: 24px;
+    width: 143px;
+    margin-left: -400px;
+    border-radius: nullpx;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #15066D;
+  
+}
+.logout{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    background: #0094FF;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    color: white;
+}  
+.logo-image{
+    position: absolute;
+    width: 125px;
+    height: 60px;
+    margin-left: -500px;
+    mix-blend-mode: normal;
+     border-radius: 148px;
+     margin-top: -10px;
+
+}
+.team{
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.about{
+    margin-left: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.contact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.nurse{
+    position: absolute;
+    left: 515px;
+    top: 202px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.line-break{
+    position: absolute;
+    width: 1270px;
+    height: 11px;
+    left: -7px;
+    top: 530px;
+    background: #0094FF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.welcome-txt{
+    
+    position: absolute;
+    left: 800px;
+    top: 348px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #15066D;
+}
+.help{
+    position: absolute;
+    width: 456px;
+    height: 105px;
+    left: 800px;
+    top: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #15066D;
+}
+.get-started{
+    position: absolute;
+    width: 149px;
+    height: 35px;
+    left: 814px;
+    top: 485px;
+    background: #0094FF;
+    border-radius: 20px;
+    color: white;
+}
+.tutorial{
+    position: absolute;
+    width: 149px;
+    height: 35px;
+    left: 1005px;
+    top: 486px;
+    background: #0094FF;
+    border-radius: 20px;
+    color: white;
+}
+.benefits{
+    flex-direction: row;
+}
+.profile{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 270px;
+    top: 560px;
+}
+.onpoint{
+    position: absolute;
+    width: 76px;
+    height: 71px;
+    left: 685px;
+    top: 560px;
+}
+.free{
+    position: absolute;
+    width: 75px;
+    height: 71px;
+    left: 1102px;
+    top: 560px;
+}
+.copy-right{
+    position: absolute;
+    height: 81px;
+    left: 449px;
+    top: 1196px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.logo-container{
+    background-color: white;
+    z-index: 2;
+}
+.active-users{
+    position: absolute;
+    width: 185px;
+    height: 24px;
+    left: 228px;
+    top: 928px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+     
+</style> 
+</Head>  
+<Body>
+    <header>
+    <nav>  
+        <ul>
+            <li class="logo-container">
+                <img src="logo.jpg" class="logo-image" alt="logo" width="600" height="400">
+            </li> 
+        <li>  
+        <a href="#" class="logo" >CODEO CLINIC</a>  
+        </li>  
+        <li>  
+        <a href="#" class="about"> about </a>  
+        </li>  
+        <li>  
+        <a href="#" class="contact"> contact </a>  
+        </li>  
+        <li> <a href="#" class="team">team</a>  
+        </li>  
+        <li>  
+        <button class="logout">logout</button>  
+        </li>  
+        </ul>  
+        </nav>
+    </header>
+    <div>
+        <img src="nurse.jpg" class="nurse1" width="300" height="400">
+        <h4 class="welcome-txt">
+            Welcome user 0001!
+        </h4>
+        <p class="help">
+            Let an advanced expert system help you diagnose
+            and identify early signs of cadiomegaly
+        </p>
+        <button class="get-started">Get started</button>
+        <button class="tutorial">Tutorial</button>
+    </div>
+      
+    <div class="line-break"></div>
+    <div class="benefits">
+        <div>
+            <img src="profile.jpg" class="profile">
+            <p class="active-users">
+                100+ active users
+            </p>
+        </div>
+        <div>
+            <img src="onpoint.jpg" class="onpoint">
+        </div>
+        <div>
+            <img src="free.jpg" class="free">
+        </div>
+    </div>
+    
+    <footer>
+        <p class="copy-right">
+            Copyright c codeo clinic by team codeo uia 2022
+        </p>
+    </footer>
+         
+</Body>   
+</Html>

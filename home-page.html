@@ -1,0 +1,229 @@
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>     
+Codeo Clinic  
+</Title> 
+<style type=text/css>
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0px;  
+height: 70px;  
+display: flex;  
+align-items: center;
+margin-left: 500px; 
+z-index: 2; 
+position: fixed;
+background-color: white; 
+ 
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: blue;  
+text-decoration: none;  
+}
+.logo{
+    height: 24px;
+    width: 143px;
+    margin-left: -400px;
+    top: 71px;
+    border-radius: nullpx;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #15066D;
+    mix-blend-mode: normal;
+}
+.logout{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    background: #0094FF;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    color: white;
+}  
+.logo-image{
+    position: absolute;
+    width: 125px;
+    height: 60px;
+    margin-left: -500px;
+    mix-blend-mode: normal;
+     border-radius: 148px;
+     margin-top: -10px;
+
+}
+.team{
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.about{
+    margin-left: 400px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.contact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.upload{
+    position: absolute;
+    width: 157px;
+    height: 183px;
+    left: 138px;
+    top: 356px;
+} 
+.upload-text{
+    position: absolute;
+    width: 884px;
+    height: 37px;
+    left: 337px;
+    top: 389px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #15066D;
+    mix-blend-mode: normal;
+}
+.upload-btn{
+    margin-left: 350px;
+    margin-top: 370px;  
+}
+.predict-btn{
+    position: absolute;
+    width: 207px;
+    height: 35px;
+    left: 663px;
+    top: 465px;
+    background: #0094FF;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    color: white;
+
+}
+.doctor{
+    position: absolute;
+    width: 368.65px;
+    height: 472.47px;
+    transform: rotate(1.33deg);
+    margin-left:230px;
+    margin-top: 50px;
+}
+.line-break{
+    position: absolute;
+    width: 1270px;
+    height: 11px;
+    left: -7px;
+    top: 724px;
+    background: #0094FF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.x-ray-one{
+    position: absolute;
+    width: 517px;
+    height: 281px;
+    left: 98px;
+    top: 854px;
+
+}
+.x-ray-two{
+    position: absolute;
+    width: 487px;
+    height: 281px;
+    left: 749px;
+    top: 854px;
+
+}
+.copy-right{
+    position: absolute;
+    height: 81px;
+    left: 449px;
+    top: 1196px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+     
+</style> 
+</Head>  
+<Body>
+    <header>
+    <nav>  
+        <ul>
+            <li>
+                <img src="logo.jpg" class="logo-image" alt="Cinque Terre" width="600" height="400">
+            </li> 
+        <li>  
+        <a href="#" class="logo" >CODEO CLINIC</a>  
+        </li>  
+        <li>  
+        <a href="#" class="about"> about </a>  
+        </li>  
+        <li>  
+        <a href="#" class="contact"> contact </a>  
+        </li>  
+        <li> <a href="#" class="team">team</a>  
+        </li>  
+        <li>  
+        <button class="logout">logout</button>  
+        </li>  
+        </ul>  
+        </nav>
+    </header>
+    <div>
+        <img src="upload.jpg" class="upload">
+        <h3 class="upload-text">
+            Upload X ray image to begin diagnosis
+        </h3>
+        <input type="file" class="upload-btn" name="filename">
+        <button class="predict-btn">predict</button>
+        <img src="doctor.jpg" class="doctor">
+    </div>  
+    <div class="line-break"></div>
+    <div>
+        <img src="x-ray-one.jpg" class="x-ray-one">
+        <img src="x-ray-two.jpg" class="x-ray-two">
+    </div>
+    <footer>
+        <p class="copy-right">
+            Copyright c codeo clinic by team codeo uia 2022
+        </p>
+    </footer>
+         
+</Body>   
+</Html>
